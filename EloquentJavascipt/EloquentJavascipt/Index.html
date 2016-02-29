@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    
+    <h2>On programming</h2>
+
+    <script type="text/javascript">
+
+        
+
+        console.log(sum2(range2(1, 4, -2)));
+        console.log(3 > 2);
+        console.log("5" + 1);
+        function range2(start, end, step) {
+            if (step == null) step = 1;
+            if (step <= 0) step = 1;
+
+            var arr = [];
+            for (var i = start; i <= end; i += step) {
+                arr.push(i);
+            }
+            return arr;
+        }
+        function sum2(array) {
+            var total = 0;
+            for (var i = 0; i < array.length; i++) {
+                total += array[i];
+            }
+            return total;
+        }
+    </script>
+</body>
+</html>

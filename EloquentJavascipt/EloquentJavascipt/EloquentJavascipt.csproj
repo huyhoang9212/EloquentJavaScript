@@ -66,7 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Highe-OrderFunction.html" />
+    <Content Include="index.html" />
+    <Content Include="ObjectsAndArrays.html" />
     <Content Include="packages.config" />
+    <Content Include="Functions\function.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,6 +79,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ProgramStructures\ProgramStructure.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

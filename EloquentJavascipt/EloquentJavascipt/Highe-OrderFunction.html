@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    <p1>Higher-Order functions</p1>
+    
+
+
+    <script>
+
+        function range(start, end, step) {
+            var arr = [];
+            if (step == undefined || step == 0)
+                step = 1;
+            if (step > 0) {
+                for (var i = start; i <= end; i = i + step) {
+                    arr.push(i);
+                }
+            } else {
+                for (var i = start; i >= end; i = i + step) {
+                    arr.push(i);
+                }
+            }
+           
+            return arr;
+        }
+
+        function sum(arr) {
+            var sum = 0;
+            for (var i = 0; i < arr.length; i++) {
+                sum += arr[i];
+            }
+            return sum;
+        }
+
+        var arr = [1,7,3];
+
+        //console.log(sum(range(1, 5, 2)));
+        //console.log(sum(arr));
+        //console.log(sum(range(5, 1, -2)));
+
+        function noisy(f) {
+            return function (arg) {
+                console.log("calling with", arg);
+                var val = f(arg);
+                console.log("called with", arg, "-got", val);
+                return val;
+            };
+        }
+        noisy(Boolean)(0);
+
+
+
+    </script>
+
+</body>
+</html>
