@@ -9,13 +9,13 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{08388D77-8205-43E4-97C3-7F6BF6D82D49}</ProjectGuid>
+    <ProjectGuid>{84FF75DF-9014-47C1-AD2C-ABAAA3A6ABB4}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EloquentJavascipt</RootNamespace>
-    <AssemblyName>EloquentJavascipt</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <RootNamespace>Electronic_Life</RootNamespace>
+    <AssemblyName>Electronic Life</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -66,12 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Highe-OrderFunction.html" />
-    <Content Include="Higher-OrderFunctions\higher-order-function.html" />
-    <Content Include="index.html" />
-    <Content Include="ObjectsAndArrays.html" />
     <Content Include="packages.config" />
-    <Content Include="Functions\function.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,15 +75,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ProgramStructures\ProgramStructure.html" />
-    <Content Include="TheSecretLifeOfObject.html" />
+    <Content Include="index.html" />
+    <Content Include="Model\Grid.js" />
+    <Content Include="Model\Vector.js" />
+    <Content Include="Model\World.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Electronic Life\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -103,9 +97,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>41841</DevelopmentServerPort>
+          <DevelopmentServerPort>51617</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:41841/</IISUrl>
+          <IISUrl>http://localhost:51617/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
