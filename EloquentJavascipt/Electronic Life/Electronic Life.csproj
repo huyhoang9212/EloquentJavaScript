@@ -79,6 +79,9 @@
     <Content Include="Model\Grid.js" />
     <Content Include="Model\Vector.js" />
     <Content Include="Model\World.js" />
+    <Content Include="Scripts\animateworld.js" />
+    <Content Include="Scripts\electronic_life.js" />
+    <Content Include="Scripts\elife_eloquent.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
