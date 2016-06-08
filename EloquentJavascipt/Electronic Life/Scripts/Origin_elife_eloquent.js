@@ -107,6 +107,7 @@ var world = new World(plan, {
     "#": Wall,
     "o": BouncingCritter
 });
+
 //   #      #    #      o      ##
 //   #                          #
 //   #          #####           #
